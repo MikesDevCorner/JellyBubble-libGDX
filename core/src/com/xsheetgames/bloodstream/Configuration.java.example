@@ -1,0 +1,104 @@
+/*package com.xsheetgames.bloodstream;
+
+import com.badlogic.gdx.Application;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.math.Vector2;
+
+
+public class Configuration {
+
+	//THE CONFIGURATION GOES HERE
+	public static float VIEWPORT_WIDTH;   //20 Meter
+	public static float VIEWPORT_HEIGHT;  //12.5 Meter
+	public static int TARGET_WIDTH;
+	public static int TARGET_HEIGHT;
+	public static boolean soundEnabled;
+	public static boolean musicEnabled;
+	public static boolean vibrateEnabled;
+	public static Vector2 emptyVector2;
+
+	
+	public static String GoogleAnalyticsTracker = "UA-"; 
+
+	public static final float bezugsWidth = 1280f;
+	public static final float bezugsHeight = 800;
+	public static final float bezugsRatio = bezugsWidth / bezugsHeight;
+	
+	public static boolean poolingInfos, contactInfos, spawnInfos;
+	public static int debugLevel;
+	
+	
+	public static void load() {
+		
+		emptyVector2 = new Vector2();
+		
+		//*****INITIAL SETTINGS CONFIGURATION****************
+		soundEnabled = true;
+		musicEnabled = true;
+		vibrateEnabled = true;
+		//***************************************************		
+		
+		
+		//*****DEBUG CONFIGURATION****************************
+		debugLevel = Application.LOG_ERROR;
+		//debugLevel = Application.LOG_DEBUG;
+		//debugLevel = Application.LOG_NONE;
+		//debugLevel = Application.LOG_INFO;
+		poolingInfos = false;
+		contactInfos = false;
+		spawnInfos = false;
+		//***************************************************
+		
+		if(Gdx.graphics.getWidth() < 600) TARGET_WIDTH = 480;
+		else if(Gdx.graphics.getWidth() >= 600 && Gdx.graphics.getWidth() < 900) TARGET_WIDTH = 800;
+		else if(Gdx.graphics.getWidth() >= 900 && Gdx.graphics.getWidth() < 1500) TARGET_WIDTH = 1280;
+		else TARGET_WIDTH = 1920;
+		
+		
+		float factor = (float)Gdx.graphics.getWidth() / (float)Gdx.graphics.getHeight();
+		
+		TARGET_HEIGHT = Math.round(TARGET_WIDTH / factor);
+		VIEWPORT_WIDTH = 20f;
+		VIEWPORT_HEIGHT = (float) Math.round(VIEWPORT_WIDTH / factor * 10.0f) / 10.0f;
+	}
+	
+	//converts pixel (based on targetWidth) to meter size
+	public static float toMeter(float pixel) {
+		return pixel * Configuration.VIEWPORT_WIDTH / (float) Configuration.TARGET_WIDTH;
+	}
+	
+	//converts pixel (based on targetWidth) to meter size
+	public static float toMeter(int pixel) {
+		return (float) ((float)pixel * (float) Configuration.VIEWPORT_WIDTH / (float) Configuration.TARGET_WIDTH);
+	}
+	
+	//converts pixel (based on targetWidth) to pixel (based on real screen size)
+	public static int bezugifyX(int pixel) {
+		return (int) ((float)pixel * (float)Configuration.TARGET_WIDTH / (float)Configuration.bezugsWidth);
+	}
+	
+	//converts pixel (based on targetWidth) to pixel (based on real screen size)
+	public static float bezugifyX(float pixel) {
+		return pixel * (float) Configuration.TARGET_WIDTH / (float) Configuration.bezugsWidth;
+	}
+	
+	//converts pixel (based on targetWidth) to pixel (based on real screen size)
+	public static int bezugifyY(int pixel) {
+		return (int) ((float)pixel * (float)Configuration.TARGET_HEIGHT / (float)Configuration.bezugsHeight);
+	}
+	
+	//converts pixel (based on targetWidth) to pixel (based on real screen size)
+	public static float bezugifyY(float pixel) {
+		return pixel * (float) Configuration.TARGET_HEIGHT / (float) Configuration.bezugsHeight;
+	}
+	
+	public static void changeDebugMode() {
+		if(debugLevel == Application.LOG_DEBUG) {
+			debugLevel = Application.LOG_ERROR;
+			Gdx.app.setLogLevel(Configuration.debugLevel);
+		} else {
+			debugLevel=Application.LOG_DEBUG;
+			Gdx.app.setLogLevel(Configuration.debugLevel);
+		}
+	}
+}*/
