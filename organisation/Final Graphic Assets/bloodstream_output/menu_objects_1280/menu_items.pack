@@ -1,0 +1,12 @@
+
+menu_items.png
+format: RGBA8888
+filter: MipMapLinearNearest,Nearest
+repeat: none
+playb
+  rotate: false
+  xy: 1, 1
+  size: 163, 161
+  orig: 163, 161
+  offset: 0, 0
+  index: -1
