@@ -1,0 +1,332 @@
+
+game_objects.png
+format: RGBA8888
+filter: MipMapLinearNearest,Nearest
+repeat: none
+obs_corn1
+  rotate: false
+  xy: 1, 623
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+obs_corn2
+  rotate: false
+  xy: 1, 221
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+obs_curv1
+  rotate: false
+  xy: 403, 623
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+obs_stain1
+  rotate: false
+  xy: 403, 221
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+obs_straight1
+  rotate: false
+  xy: 1, 119
+  size: 640, 100
+  orig: 640, 100
+  offset: 0, 0
+  index: -1
+obs_straight2
+  rotate: false
+  xy: 1, 17
+  size: 640, 100
+  orig: 640, 100
+  offset: 0, 0
+  index: -1
+virus
+  rotate: false
+  xy: 805, 903
+  size: 126, 120
+  orig: 126, 120
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 643, 133
+  size: 113, 86
+  orig: 113, 86
+  offset: 0, 0
+  index: -1
+jelly
+  rotate: false
+  xy: 805, 806
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 1
+jelly
+  rotate: false
+  xy: 933, 928
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 2
+jelly
+  rotate: false
+  xy: 643, 36
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 3
+jelly
+  rotate: false
+  xy: 805, 709
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 4
+jelly
+  rotate: false
+  xy: 805, 612
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 5
+jelly
+  rotate: false
+  xy: 805, 515
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 6
+jelly
+  rotate: false
+  xy: 805, 418
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 7
+jelly
+  rotate: false
+  xy: 805, 321
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 8
+jelly
+  rotate: false
+  xy: 805, 224
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 9
+jelly
+  rotate: false
+  xy: 889, 806
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 10
+jelly
+  rotate: false
+  xy: 889, 709
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 11
+jelly
+  rotate: false
+  xy: 889, 612
+  size: 82, 95
+  orig: 82, 95
+  offset: 0, 0
+  index: 12
+character_idle
+  rotate: false
+  xy: 889, 528
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 1
+character_idle
+  rotate: false
+  xy: 889, 444
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 2
+character_idle
+  rotate: false
+  xy: 889, 360
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 3
+character_idle
+  rotate: false
+  xy: 889, 276
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 4
+character_idle
+  rotate: false
+  xy: 889, 192
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 5
+meter_track_big
+  rotate: false
+  xy: 758, 162
+  size: 265, 28
+  orig: 265, 28
+  offset: 0, 0
+  index: -1
+meter_display_big
+  rotate: false
+  xy: 758, 141
+  size: 238, 19
+  orig: 238, 19
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 973, 876
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+character_idle
+  rotate: false
+  xy: 727, 49
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 6
+character_idle
+  rotate: false
+  xy: 811, 57
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 7
+character_idle
+  rotate: false
+  xy: 895, 57
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 8
+energy
+  rotate: false
+  xy: 727, 1
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+track_small
+  rotate: false
+  xy: 973, 862
+  size: 50, 12
+  orig: 50, 12
+  offset: 0, 0
+  index: -1
+blackLayer
+  rotate: false
+  xy: 758, 194
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+display_small
+  rotate: false
+  xy: 1, 5
+  size: 48, 10
+  orig: 48, 10
+  offset: 0, 0
+  index: -1
+
+game_objects2.png
+format: RGBA8888
+filter: MipMapLinearNearest,Nearest
+repeat: none
+obs_straight3
+  rotate: false
+  xy: 1, 355
+  size: 640, 100
+  orig: 640, 100
+  offset: 0, 0
+  index: -1
+obs_straight4
+  rotate: false
+  xy: 1, 253
+  size: 640, 100
+  orig: 640, 100
+  offset: 0, 0
+  index: -1
+dropzone
+  rotate: false
+  xy: 643, 135
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+character_idle
+  rotate: false
+  xy: 1, 169
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 9
+character_idle
+  rotate: false
+  xy: 1, 85
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 10
+character_idle
+  rotate: false
+  xy: 85, 169
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 11
+character_idle
+  rotate: false
+  xy: 1, 1
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: 12
+pu_dash
+  rotate: false
+  xy: 85, 102
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+pu_shock
+  rotate: false
+  xy: 169, 186
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+pu_energy
+  rotate: false
+  xy: 85, 35
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+pu_ghost
+  rotate: false
+  xy: 236, 186
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
